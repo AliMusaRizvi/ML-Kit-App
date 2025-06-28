@@ -43,7 +43,10 @@ This application features four distinct modules, each demonstrating a core ML Ki
 
 ## Screenshots / Demo
 
-*(Please insert screenshots or a GIF demonstrating each module's functionality here.)*
+![main](images/main.jpg)
+![Barcode Scanner](images/bar.QR_code.jpg)
+![code](images/mlkit.png)
+![Text Recognizer](images/text_recognizer.jpg)
 
 ## Getting Started
 
