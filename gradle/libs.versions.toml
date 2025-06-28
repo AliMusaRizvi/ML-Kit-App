@@ -1,0 +1,61 @@
+[versions]
+agp = "8.8.2"
+cardview = "1.0.0"
+coreKtx = "1.16.0"
+appcompat = "1.7.0"
+listenablefuture = "9999.0-empty-to-avoid-conflict"
+material = "1.12.0"
+activity = "1.10.1"
+constraintlayout = "2.2.1"
+camera = "1.4.2"
+textRecognition = "16.0.1"
+barcodeScanning = "17.3.0"
+faceDetection = "16.1.7"
+objectDetection = "17.0.2"
+translate = "17.0.3"
+room = "2.7.1"
+firebaseAuth = "23.2.0"
+firebaseDatabase = "21.0.0"
+credentials = "1.5.0"
+googleid = "1.1.1"
+guava = "33.3.0-android"
+junit = "4.13.2"
+extJunit = "1.2.1"
+espressoCore = "3.6.1"
+gridlayout = "1.1.0"
+
+[libraries]
+cardview = { module = "androidx.cardview:cardview", version.ref = "cardview" }
+core-ktx = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
+appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+listenablefuture = { module = "com.google.guava:listenablefuture", version.ref = "listenablefuture" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+activity = { module = "androidx.activity:activity", version.ref = "activity" }
+constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+camera-core = { module = "androidx.camera:camera-core", version.ref = "camera" }
+camera-camera2 = { module = "androidx.camera:camera-camera2", version.ref = "camera" }
+camera-lifecycle = { module = "androidx.camera:camera-lifecycle", version.ref = "camera" }
+camera-view = { module = "androidx.camera:camera-view", version.ref = "camera" }
+text-recognition = { module = "com.google.mlkit:text-recognition", version.ref = "textRecognition" }
+text-recognition-chinese = { module = "com.google.mlkit:text-recognition-chinese", version.ref = "textRecognition" }
+text-recognition-korean = { module = "com.google.mlkit:text-recognition-korean", version.ref = "textRecognition" }
+barcode-scanning = { module = "com.google.mlkit:barcode-scanning", version.ref = "barcodeScanning" }
+face-detection = { module = "com.google.mlkit:face-detection", version.ref = "faceDetection" }
+object-detection = { module = "com.google.mlkit:object-detection", version.ref = "objectDetection" }
+translate = { module = "com.google.mlkit:translate", version.ref = "translate" }
+room-runtime = { module = "androidx.room:room-runtime", version.ref = "room" }
+room-compiler = { module = "androidx.room:room-compiler", version.ref = "room" }
+room-ktx = { module = "androidx.room:room-ktx", version.ref = "room" }
+firebase-auth = { module = "com.google.firebase:firebase-auth", version.ref = "firebaseAuth" }
+firebase-database = { module = "com.google.firebase:firebase-database", version.ref = "firebaseDatabase" }
+credentials = { module = "androidx.credentials:credentials", version.ref = "credentials" }
+credentials-play-services-auth = { module = "androidx.credentials:credentials-play-services-auth", version.ref = "credentials" }
+googleid = { module = "com.google.android.libraries.identity.googleid:googleid", version.ref = "googleid" }
+guava = { module = "com.google.guava:guava", version.ref = "guava" }
+junit = { module = "junit:junit", version.ref = "junit" }
+ext-junit = { module = "androidx.test.ext:junit", version.ref = "extJunit" }
+espresso-core = { module = "androidx.test.espresso:espresso-core", version.ref = "espressoCore" }
+gridlayout = { group = "androidx.gridlayout", name = "gridlayout", version.ref = "gridlayout" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }

@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">mlkitdemo</string>
+    <string name="freeze_frame">Freeze Frame</string>
+    <string name="switch_camera">Switch Camera</string>
+    <string name="export_labels">Export Labels</string>
+    <string name="capture">Capture</string>
+
+    <!-- Object Detection Screen -->
+    <string name="detected_objects_will_appear_here">Capture an image to detect objects</string>
+    <string name="switch_to_front">Front Camera</string>
+    <string name="switch_to_back">Back Camera</string>
+    <string name="object_detection_title">Object Detection</string>
+    <string name="processing_image">Processing image…</string>
+    <string name="no_objects_detected">No objects detected in this image.</string>
+    <string name="object_count">Found %d object(s):</string>
+    <string name="unidentified_object">Unidentified object</string>
+    <string name="camera_permission_required">Camera permission is required for object detection</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="permission_denied">Permission denied. Object detection requires camera access.</string>
+    <string name="labels_exported">Labels exported successfully</string>
+    <string name="no_labels_to_export">No objects detected yet</string>
+    <string name="app_name_full">ML Kit Barcode Scanner</string>
+    <string name="scanned_result_label">Scanned Result:</string>
+    <string name="scan_prompt">Scan a barcode...</string>
+    <string name="copy_button_text">Copy</string>
+    <string name="open_link_button_text">Open Link</string>
+    <string name="copied_to_clipboard_message">Copied to clipboard!</string>
+    <string name="nothing_to_copy_message">Nothing to copy yet.</string>
+    <string name="failed_to_open_link_message">Failed to open link. Please check the URL.</string>
+    <string name="not_a_valid_link_message">Not a valid link.</string>
+    <string name="camera_init_error_message">Error initializing camera. Please grant camera permission.</string>
+
+
+    <!-- New strings for Text Recognition functionality -->
+    <string name="text_recognition_title">ML Kit Text Recognition</string>
+    <string name="recognized_text_label">Recognized Text:</string>
+    <string name="text_recognition_prompt">Capture text to recognize...</string>
+    <string name="capture_button_desc">Capture photo for text recognition</string>
+    <string name="flash_on_desc">Flash is ON</string>
+    <string name="flash_off_desc">Flash is OFF</string>
+    <string name="text_frozen_message">text_frozen_message</string>
+    <string name="flash_not_available_message">Flash not available on this device.</string>
+    <string name="no_text_to_freeze_message">no_text_to_freeze_message</string>
+    <string name="camera_permission_denied_toast">Camera permission denied.</string>
+    <string name="failed_to_initialize_camera">Failed to initialize camera.</string>
+    <string name="camera_not_initialized">Camera not initialized. Please try again.</string>
+    <string name="failed_to_capture_image">Failed to capture image: </string>
+    <string name="failed_to_process_image_null">Failed to process image: Image is null.</string>
+    <string name="no_text_detected">No text detected.</string>
+    <string name="text_recognition_failed">Failed to recognize text: </string>
+    <string name="text_recognition_failed_toast">Text recognition failed.</string>
+    <string name="copied_text_message">Text copied to clipboard!</string>
+    <string name="nothing_to_copy_text_message">No text to copy yet.</string>
+    <string name="searching_text_message">Searching Google for text...</string>
+    <string name="failed_to_search_text_message">Failed to perform text search. No web browser found.</string>
+    <string name="nothing_to_search_text_message">No text to search yet.</string>
+    <string name="no_app_to_handle_search_text_message">No application found to perform a web search for text.</string>
+
+</resources>

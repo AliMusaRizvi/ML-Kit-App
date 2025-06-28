@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base colors -->
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="primary_light">#C5CAE9</color>
+    <color name="accent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Text colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_tertiary">#BDBDBD</color>
+
+    <!-- Background colors -->
+    <color name="background">#F9F9F9</color>
+    <color name="surface">#FFFFFF</color>
+
+    <!-- Feature card colors -->
+    <color name="card_text_recognition">#4285F4</color>
+    <color name="card_face_detection">#EA4335</color>
+    <color name="card_barcode_scanning">#34A853</color>
+    <color name="card_object_detection">#FBBC05</color>
+    <!-- Standard Material Design Colors -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+
+    <!-- Custom colors used in your layout/buttons -->
+    <color name="google_blue">#4285F4</color>
+    <color name="google_blue_dark">#3367D6</color>
+    <color name="google_green">#34A853</color>
+    <color name="google_green_dark">#2C8B46</color>
+    <color name="background_light_gray">#F0F2F5</color>
+    <color name="card_background_white">#FFFFFF</color>
+    <color name="text_dark_grey">#2C3E50</color>
+    <color name="text_medium_grey">#555555</color>
+    <color name="text_light_grey">#333333</color>
+    <color name="preview_background_grey">#CCCCCC</color>
+    <color name="result_background_light">#F8F8F8</color>
+    <color name="result_border_grey">#DDDDDD</color>
+
+    <!-- Status colors -->
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FFC107</color>
+    <color name="error">#F44336</color>
+    <color name="info">#2196F3</color>
+</resources>

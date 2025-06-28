@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="Theme.MLKitDemo" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <!-- Base application theme -->
+<!--    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">-->
+<!--        <item name="colorPrimary">@color/primary</item>-->
+<!--        <item name="colorPrimaryDark">@color/primary_dark</item>-->
+<!--        <item name="colorPrimaryVariant">@color/primary_dark</item>-->
+<!--        <item name="colorOnPrimary">@color/white</item>-->
+<!--        <item name="colorSecondary">@color/accent</item>-->
+<!--        <item name="colorSecondaryVariant">@color/accent</item>-->
+<!--        <item name="colorOnSecondary">@color/white</item>-->
+<!--        <item name="colorError">@color/error</item>-->
+<!--        <item name="colorOnError">@color/white</item>-->
+<!--        <item name="colorSurface">@color/surface</item>-->
+<!--        <item name="colorOnSurface">@color/text_primary</item>-->
+<!--        <item name="android:colorBackground">@color/background</item>-->
+<!--        <item name="colorOnBackground">@color/text_primary</item>-->
+
+<!--        &lt;!&ndash; Typography preferences &ndash;&gt;-->
+<!--        <item name="textAppearanceHeadline1">@style/TextAppearance.App.Headline1</item>-->
+<!--        <item name="textAppearanceHeadline2">@style/TextAppearance.App.Headline2</item>-->
+<!--        <item name="textAppearanceHeadline3">@style/TextAppearance.App.Headline3</item>-->
+<!--        <item name="textAppearanceHeadline4">@style/TextAppearance.App.Headline4</item>-->
+<!--        <item name="textAppearanceHeadline5">@style/TextAppearance.App.Headline5</item>-->
+<!--        <item name="textAppearanceHeadline6">@style/TextAppearance.App.Headline6</item>-->
+<!--        <item name="textAppearanceSubtitle1">@style/TextAppearance.App.Subtitle1</item>-->
+<!--        <item name="textAppearanceSubtitle2">@style/TextAppearance.App.Subtitle2</item>-->
+<!--        <item name="textAppearanceBody1">@style/TextAppearance.App.Body1</item>-->
+<!--        <item name="textAppearanceBody2">@style/TextAppearance.App.Body2</item>-->
+
+<!--        &lt;!&ndash; Shape preferences &ndash;&gt;-->
+<!--        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.App.SmallComponent</item>-->
+<!--        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.App.MediumComponent</item>-->
+<!--        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.App.LargeComponent</item>-->
+
+<!--        &lt;!&ndash; Default status bar is light &ndash;&gt;-->
+<!--        <item name="android:windowLightStatusBar">true</item>-->
+<!--        <item name="android:statusBarColor">@color/background</item>-->
+
+<!--        &lt;!&ndash; Material transition preferences &ndash;&gt;-->
+<!--        <item name="android:windowActivityTransitions">true</item>-->
+<!--        <item name="android:windowEnterTransition">@android:transition/fade</item>-->
+<!--        <item name="android:windowExitTransition">@android:transition/fade</item>-->
+<!--    </style>-->
+
+<!--    &lt;!&ndash; Typography styles &ndash;&gt;-->
+<!--    <style name="TextAppearance.App.Headline1" parent="TextAppearance.MaterialComponents.Headline1">-->
+<!--        <item name="fontFamily">@font/google_sans</item>-->
+<!--        <item name="android:fontFamily">@font/google_sans</item>-->
+<!--    </style>-->
+
+<!--    <style name="TextAppearance.App.Headline2" parent="TextAppearance.MaterialComponents.Headline2">-->
+<!--        <item name="fontFamily">@font/google_sans</item>-->
+<!--        <item name="android:fontFamily">@font/google_sans</item>-->
+<!--    </style>-->
+
+<!--    <style name="TextAppearance.App.Headline3" parent="TextAppearance.MaterialComponents.Headline3">-->
+<!--        <item name="fontFamily">@font/google_sans</item>-->
+<!--        <item name="android:fontFamily">@font/google_sans</item>-->
+<!--    </style>-->
+
+<!--    <style name="TextAppearance.App.Headline4" parent="TextAppearance.MaterialComponents.Headline4">-->
+<!--        <item name="fontFamily">@font/google_sans</item>-->
+<!--        <item name="android:fontFamily">@font/google_sans</item>-->
+<!--    </style>-->
+
+<!--    <style name="TextAppearance.App.Headline5" parent="TextAppearance.MaterialComponents.Headline5">-->
+<!--        <item name="fontFamily">@font/google_sans</item>-->
+<!--        <item name="android:fontFamily">@font/google_sans</item>-->
+<!--    </style>-->
+
+<!--    <style name="TextAppearance.App.Headline6" parent="TextAppearance.MaterialComponents.Headline6">-->
+<!--        <item name="fontFamily">@font/google_sans</item>-->
+<!--        <item name="android:fontFamily">@font/google_sans</item>-->
+<!--    </style>-->
+
+<!--    <style name="TextAppearance.App.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">-->
+<!--        <item name="fontFamily">@font/roboto</item>-->
+<!--        <item name="android:fontFamily">@font/roboto</item>-->
+<!--    </style>-->
+
+<!--    <style name="TextAppearance.App.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">-->
+<!--        <item name="fontFamily">@font/roboto</item>-->
+<!--        <item name="android:fontFamily">@font/roboto</item>-->
+<!--    </style>-->
+
+<!--    <style name="TextAppearance.App.Body1" parent="TextAppearance.MaterialComponents.Body1">-->
+<!--        <item name="fontFamily">@font/roboto</item>-->
+<!--        <item name="android:fontFamily">@font/roboto</item>-->
+<!--    </style>-->
+
+<!--    <style name="TextAppearance.App.Body2" parent="TextAppearance.MaterialComponents.Body2">-->
+<!--        <item name="fontFamily">@font/roboto</item>-->
+<!--        <item name="android:fontFamily">@font/roboto</item>-->
+<!--    </style>-->
+
+<!--    <style name="ToolbarTitle" parent="TextAppearance.MaterialComponents.Headline6">-->
+<!--        <item name="fontFamily">@font/google_sans_medium</item>-->
+<!--        <item name="android:fontFamily">@font/google_sans_medium</item>-->
+<!--        <item name="android:textSize">20sp</item>-->
+<!--    </style>-->
+
+<!--    &lt;!&ndash; Shape appearance styles &ndash;&gt;-->
+<!--    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">-->
+<!--        <item name="cornerFamily">rounded</item>-->
+<!--        <item name="cornerSize">8dp</item>-->
+<!--    </style>-->
+
+<!--    <style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">-->
+<!--        <item name="cornerFamily">rounded</item>-->
+<!--        <item name="cornerSize">12dp</item>-->
+<!--    </style>-->
+
+<!--    <style name="ShapeAppearance.App.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">-->
+<!--        <item name="cornerFamily">rounded</item>-->
+<!--        <item name="cornerSize">16dp</item>-->
+<!--    </style>-->
+</resources>

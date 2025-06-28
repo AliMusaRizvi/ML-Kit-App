@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F2F5"
+    tools:context=".TextRecognitionActivity">
+
+    <!-- Header Title -->
+    <TextView
+        android:id="@+id/title_text_recognition"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/text_recognition_title"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#2C3E50"
+        android:gravity="center"
+        android:padding="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="#FFFFFF"
+        android:elevation="4dp" />
+
+    <!-- Camera Preview View -->
+    <androidx.camera.view.PreviewView
+        android:id="@+id/camera_preview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="H,1:1"
+        app:layout_constraintTop_toBottomOf="@id/title_text_recognition"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.9"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/black"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintBottom_toTopOf="@id/result_card_text_recognition"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="24dp"
+        android:padding="2dp"
+        android:backgroundTint="#CCCCCC"
+        android:clipToOutline="true"
+        android:outlineProvider="background"
+        android:elevation="8dp"
+        android:translationZ="8dp"
+        android:foreground="@drawable/rounded_corners_overlay" />
+
+    <!-- Capture Button (Floating Action Button) - now acts as "Freeze/Copy Current Text" -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/capture_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="Freeze test Button desc"
+        app:srcCompat="@android:drawable/ic_menu_edit"
+        app:backgroundTint="@color/google_blue"
+        app:tint="@android:color/white"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="@id/camera_preview"
+        app:layout_constraintEnd_toEndOf="@id/camera_preview"
+        app:layout_constraintStart_toStartOf="@id/camera_preview" />
+
+    <!-- Flash Toggle Button (Floating Action Button) -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/flash_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="@string/flash_off_desc"
+        app:srcCompat="@drawable/ic_flash_off"
+        app:backgroundTint="@color/google_blue"
+        app:tint="@android:color/white"
+        app:fabSize="mini"
+        app:layout_constraintBottom_toBottomOf="@id/camera_preview"
+        app:layout_constraintEnd_toEndOf="@id/camera_preview"
+        android:visibility="gone" />
+
+    <!-- Progress Bar (still present but less used for real-time) -->
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/camera_preview"
+        app:layout_constraintEnd_toEndOf="@id/camera_preview"
+        app:layout_constraintStart_toStartOf="@id/camera_preview"
+        app:layout_constraintTop_toTopOf="@id/camera_preview" />
+
+    <!-- Result Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/result_card_text_recognition"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/button_container_text_recognition"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginBottom="24dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        android:backgroundTint="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/result_label_text_recognition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/recognized_text_label"
+                android:textSize="16sp"
+                android:textColor="#555555"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/text_output"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="text_recognition_prompt_realtime"
+                android:textSize="18sp"
+                android:textColor="#333333"
+                android:gravity="center_horizontal"
+                android:paddingVertical="10dp"
+                android:background="@drawable/rounded_background"
+                android:maxLines="5"
+                android:ellipsize="end"
+                android:scrollbars="vertical" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Button Container -->
+    <LinearLayout
+        android:id="@+id/button_container_text_recognition"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/copy_text_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/copy_button_text"
+            android:background="@drawable/button_background_blue"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingVertical="14dp"
+            android:layout_marginEnd="12dp"
+            android:elevation="6dp"
+            android:stateListAnimator="@null"
+            android:focusable="true"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground" />
+
+        <Button
+            android:id="@+id/search_text_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/open_link_button_text"
+            android:background="@drawable/button_background_green"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingVertical="14dp"
+            android:layout_marginStart="12dp"
+            android:elevation="6dp"
+            android:stateListAnimator="@null"
+            android:focusable="true"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

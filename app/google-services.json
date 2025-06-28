@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "305244020855",
+    "project_id": "mlkitdemo-3b3dc",
+    "storage_bucket": "mlkitdemo-3b3dc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305244020855:android:08b62718e533e24b0a6672",
+        "android_client_info": {
+          "package_name": "com.example.mlkitdemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9A5cPw3B97pIWPgpzVj52Y66asRMPMro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
