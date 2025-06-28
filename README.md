@@ -1,9 +1,9 @@
-# ML Kit Android Demo Application
+# ML Kit Android Application
 
 This project is a comprehensive Android application built to showcase the powerful capabilities of Firebase ML Kit for various on-device machine learning tasks. It integrates multiple ML Kit APIs to provide real-time and interactive functionalities directly from your device's camera.
 
 ## Overview
-
+Using **java** and **groovy**
 This application features four distinct modules, each demonstrating a core ML Kit capability:
 
 - **Barcode Scanning**: Real-time detection and decoding of various barcode formats.
